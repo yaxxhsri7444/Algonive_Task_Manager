@@ -1,0 +1,143 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f0f4f8;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Task Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input,
+form textarea,
+form button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Filters */
+.filters {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filters select {
+  padding: 8px;
+  font-size: 15px;
+}
+
+/* Task Cards */
+#task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.task-card.complete {
+  border-left-color: green;
+  opacity: 0.8;
+}
+
+.task-card h3 {
+  margin-bottom: 5px;
+}
+
+.task-card p {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.task-card .due-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.task-card .actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.task-card button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.task-card .complete-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.task-card .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    font-size: 14px;
+  }
+
+  .task-card {
+    padding: 12px;
+  }
+}
