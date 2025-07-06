@@ -35,20 +35,19 @@ A simple and responsive web-based Task Manager app that allows users to manage t
 
 📁 Folder Structure
 
--task-manager/
--│
--├── index.html       # Main HTML page
--├── style.css        # Styling
--├── script.js        # JavaScript logic
--└── README.md        # Project documentation
+- task-manager/
+- │
+- ├── index.html       # Main HTML page
+- ├── style.css        # Styling
+- ├── script.js        # JavaScript logic
+- └── README.md        # Project documentation
 
 ---
 
 ### 📬 Contact
--Made with ❤️ by Saksham Srivastava
-
--🔗 LinkedIn: https://www.linkedin.com/in/saksham-srivastava-343088255/
--🐱 GitHub: https://github.com/yaxxhsri7444
--📧 Gmail: srivastavasaksham243@gmail.com
+- Made with ❤️ by Saksham Srivastava
+- 🔗 LinkedIn: https://www.linkedin.com/in/saksham-srivastava-343088255/
+- 🐱 GitHub: https://github.com/yaxxhsri7444
+- 📧 Gmail: srivastavasaksham243@gmail.com
 
 ---
