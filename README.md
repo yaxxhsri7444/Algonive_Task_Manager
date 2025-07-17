@@ -16,12 +16,6 @@ A simple and responsive web-based Task Manager app that allows users to manage t
 
 ---
 
-## 📸 Demo Preview
-
-![Screenshot](screenshot.png) <!-- Replace with your actual screenshot file if available -->
-
----
-
 ## 💡 Technologies Used
 
 - **HTML5**
